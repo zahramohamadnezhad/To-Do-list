@@ -1,0 +1,36 @@
+body {
+    background: rgb(247, 182, 135);
+}
+.container{
+    max-width: 400px;
+    margin-top: 90px;
+}
+.search i {
+    position: absolute;
+}
+.search{
+    position: relative;
+}
+.icon{
+    padding: 10px;
+    left: 0;
+}
+.input-field{
+    text-align: center;
+}
+
+input[type="text"],
+input[type="text"]:focus {
+    color: white;
+    border: none;
+    background-color: rgba(0, 0, 0 ,0.3);
+}
+.todos li {
+    background: rgb(36, 36, 247);
+}
+.delete {
+    cursor: pointer;
+}
+.filtered{
+    display: none !important;
+}
